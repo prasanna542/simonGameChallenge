@@ -1,0 +1,2 @@
+hello I am using writeFile function from fs module
+hello this is my second line
