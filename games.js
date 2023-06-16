@@ -26,7 +26,7 @@ $(".btn").click(function(){
     $("#" + userChosenColour).fadeIn(100).fadeOut(100).fadeIn(100);
 
     // var audio = new Audio("/sounds/"+userChosenColour+".mp3");
-    var audio = new Audio("yellow.mp3");
+    var audio = new Audio(userChosenColour+".mp3");
     audio.play();
 
     checkPattern();
@@ -68,7 +68,7 @@ function nextSequence(){
 
     $("#" + randomChosenColor).delay(300).fadeIn(100).fadeOut(100).fadeIn(100);
 
-    var audio = new Audio("/sounds/"+randomChosenColor+".mp3");
+    var audio = new Audio(randomChosenColor+".mp3");
     audio.play();
 
     
