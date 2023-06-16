@@ -25,7 +25,8 @@ $(".btn").click(function(){
     userClickedPattern.push(userChosenColour);
     $("#" + userChosenColour).fadeIn(100).fadeOut(100).fadeIn(100);
 
-    var audio = new Audio("sounds/"+userChosenColour+".mp3");
+    // var audio = new Audio("/sounds/"+userChosenColour+".mp3");
+    var audio = new Audio("yellow.mp3");
     audio.play();
 
     checkPattern();
